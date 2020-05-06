@@ -5,7 +5,7 @@
  */
 package com.darioaxel.useradministration.dao.impl;
 
-import com.darioaxel.useradministration.dao.UserDAO;
+import com.darioaxel.useradministration.dao.IUserDAO;
 import com.darioaxel.useradministration.dao.models.User;
 import com.darioaxel.useradministration.dao.utils.DataRecoveryServices;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.List;
  *
  * @author darioaxel
  */
-public class UserDAOImpl implements UserDAO {
+public class UserDAOImpl implements IUserDAO {
 
     private ArrayList<User> getAllUsersAsArrayList() {
          ArrayList<User> converted = new ArrayList<User>();
