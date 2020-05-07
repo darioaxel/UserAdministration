@@ -2,15 +2,9 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 
-
-<fx:root type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<AnchorPane prefHeight="372.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.darioaxel.useradministration.gui.controllers.MainController">
    <children>
-      <Pane layoutX="-119.0" layoutY="-200.0" prefHeight="631.0" prefWidth="558.0">
-         <children>
-            <Button fx:id="startButton" layoutX="248.0" layoutY="316.0" mnemonicParsing="false" text="Start" />
-         </children>
-      </Pane>
+      <Button layoutX="175.0" layoutY="160.0" mnemonicParsing="false" text="Button" />
    </children>
-</fx:root>
+</AnchorPane>
