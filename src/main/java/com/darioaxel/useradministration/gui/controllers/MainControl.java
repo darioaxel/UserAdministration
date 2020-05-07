@@ -1,4 +1,4 @@
-package com.darioaxel.useradministration.gui.controls;
+package com.darioaxel.useradministration.gui.controllers;
 
 import javafx.fxml.FXML;
 
