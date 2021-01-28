@@ -4,11 +4,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane prefHeight="372.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.darioaxel.useradministration.gui.controllers.MainController">
+<AnchorPane prefHeight="372.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.darioaxel.useradministration.gui.controllers.MainController">
    <children>
       <Button fx:id="startButton" layoutX="175.0" layoutY="160.0" mnemonicParsing="false" onAction="#saySomething" text="Start" />
       <TextField fx:id="startTextField" layoutX="240.0" layoutY="160.0" prefHeight="26.0" prefWidth="284.0" />
       <Label layoutX="139.0" layoutY="118.0" prefHeight="16.0" prefWidth="385.0" text="This is a small JavaFX example! Try it! " />
+      <Rectangle id="basicRectangle" fx:id="basicRectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="320.0" layoutY="202.0" onMouseEntered="#changeColorOnEnter" onMouseExited="#changeColorOnExit" stroke="BLACK" strokeType="INSIDE" width="98.0" />
    </children>
 </AnchorPane>
